@@ -2,6 +2,6 @@
 function veficiaPalindromo(string) {
     if(!string) return;
 
-    string.split("").reverse().join("") === string;
+    return string.split("").reverse().join("") === string;
 }
 console.log (veficiaPalindromo("ovo"))
