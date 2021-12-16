@@ -4,4 +4,4 @@ function veficiaPalindromo(string) {
 
     return string.split("").reverse().join("") === string;
 }
-console.log (veficiaPalindromo("ovo"))
+console.log (veficiaPalindromo("gato"))
